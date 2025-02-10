@@ -1,39 +1,63 @@
-![Favicon](https://github.com/ackstudio/boilerplate/)
+# Craft CMS 5 Boilerplate with Vite and Tailwind
 
-# Craft CMS 5 Starter Boilerplate
-
-Welcome to the Craft CMS 5 Starter Boilerplate by [ACK STUDIO](https://ackstudio.com). This starter is tailored for in-house use at ACK STUDIO, offering an opinionated foundation for any new Craft CMS project. It is optimized and ready for fully custom builds.
+Welcome to the Craft CMS 5 Boilerplate by [ACK STUDIO](https://ackstudio.com). This starter kit is specifically crafted for in-house use at ACK STUDIO, providing a solid, opinionated foundation for launching any new Craft CMS project.
 
 ## Tech Stack
 
-- [Craft CMS 5.x](https://craftcms.com) - Robust Content Management System
-- [DDEV](https://ddev.com) - Docker-based Local Development Environment
-- [Vite 5.x](https://vitejs.dev) - High-speed Front-end Build Tool with Hot Module Replacement (HMR)
-- [Tailwind CSS 4.x](https://tailwindcss.com) - Utility-first CSS Framework for rapid UI development
+- [Craft CMS 5.x](https://craftcms.com) - Powerful Content Management System
+- [DDEV](https://ddev.com) - Docker-powered Local Development Environment
+- [Vite 5.x](https://vitejs.dev) - Fast Front-end Build Tool with Hot Module Replacement (HMR)
+- [Tailwind CSS 4.x](https://tailwindcss.com) - Utility-first CSS Framework for efficient UI development
 
 ## System Requirements
 
-- [DDEV](https://ddev.com) - Ensure DDEV is installed for seamless local development
+- [DDEV](https://ddev.com) - Ensure DDEV is installed for smooth local development
 
 ## Key Features
 
 - **Template System**
-  - Pre-built layout templates featuring global headers and footers
-  - Custom error pages, including 404, maintenance mode, and generic error handling
+  - Pre-structured layout templates with base layouts, global headers, footers, and page templates
+  - Custom error pages for 404, maintenance, and generic errors
 
 - **Configuration Management**
-  - Pre-configured settings for essential Craft CMS plugins
-  - Secure and flexible environment management using `.env` variables
+  - Pre-configured settings for Craft CMS and essential plugins
 
 - **Optimized Build Process**
-  - Hot Module Replacement (HMR) for instant front-end updates
-  - Automatic CSS and JS minification and purging for top performance
-  - Integrated image compression for faster loading speeds
-  - Source map generation for efficient debugging
+  - Hot Module Replacement (HMR) for real-time front-end updates
+  - Automatic minification and purging of CSS and JS for optimized performance
 
 ## Included Plugins
 
 ### Craft CMS Plugins
 
-- **Vite** - Seamless integration with the front-end build tool
-- **Sprig** - Enables reactive components within Twig templates  
+- **Vite** - Integrated front-end build tool for streamlined development
+- **Sprig** - Enables reactive, interactive components within Twig templates
+
+## Installation
+
+1. **Clone or Fork the Repository**
+
+Use Composer to create a new project:
+
+```bash
+composer create-project ackstudio/craft-cms
+```
+
+2.	Start DDEV, Install Craft CMS, and Dependencies
+
+Firstly, edit .ddev/config.yaml and change the name field to your project name.
+Then run the following commands to start DDEV and install dependencies:
+
+``` ddev start ```
+``` ddev composer install ```
+``` ddev craft setup ```
+
+3.	Start Vite for Front-end Development
+
+Install Node.js dependencies and start Vite for development:
+
+``` npm install ```
+``` npm run dev ```
+
+## Authors
+- [ACK STUDIO](https://ackstudio.com)
