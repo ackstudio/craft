@@ -1,0 +1,47 @@
+dateModified: 1739153740
+email:
+  fromEmail: email@yourdomain.com
+  fromName: Craft
+  replyToEmail: null
+  template: null
+  transportSettings:
+    command: '/usr/local/bin/mailpit sendmail -t --smtp-addr 127.0.0.1:1025'
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    4b42f7dd-36ee-4947-b0a3-9fdfff9cb6e2: Craft # Craft
+    22cc9a52-8b47-4d11-a4e0-3b7c5a85be4a: Homepage # Homepage
+    47686882-769e-4d79-8397-b0f76e98bb77: Homepage # Homepage
+    bcee5838-9c51-4983-a99b-2c1b04f6d582: Craft # Craft
+    f15ce654-beb5-49f7-8ee8-827cd98ef5c2: Simple # Simple
+plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
+  minify:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  sprig:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.1
+  vite:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+system:
+  edition: solo
+  live: true
+  name: Craft
+  retryDuration: null
+  schemaVersion: 5.6.0.2
+  timeZone: Asia/Hong_Kong
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  require2fa: false
+  requireEmailVerification: true

@@ -1,0 +1,1 @@
+{"version":3,"file":"main-Ck5EiAT6.js","sources":["../../../src/js/index.ts"],"sourcesContent":["// Accept HMR as per: https://vitejs.dev/guide/api-hmr.html\nif (import.meta.hot) {\n    import.meta.hot.accept(() => {\n        console.log(\"HMR\")\n    });\n}\n\nconsole.log('hello world');"],"names":[],"mappings":"mFAOA,QAAQ,IAAI,aAAa"}

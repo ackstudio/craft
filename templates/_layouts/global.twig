@@ -1,0 +1,12 @@
+{% extends '_layouts/base' %}
+
+{% block body %}
+  {# Header #}
+  {% include '_components/global/header' with {} %}
+
+  {# Body #}
+  {% block site %}{% endblock %}
+
+  {# Footer #}
+  {% include '_components/global/footer' with {} %}
+{% endblock %}

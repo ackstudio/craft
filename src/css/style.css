@@ -1,0 +1,20 @@
+@import "tailwindcss" source("../../src");
+
+@source "../../templates";
+
+@theme {
+    --color-p-10: #F6FFF1;
+    --color-p-20: #EBFFE7;
+    --color-p-50: #C6FFC7;
+    --color-p-100: #A3F5AB;
+    --color-p-200: #88D991;
+    --color-p-300: #6DBC77;
+    --color-p-400: #52A15F;
+    --color-p-500: #378648;
+    --color-p-600: #1A6C31;
+    --color-p-650: #046026;
+    --color-p-700: #00531F;
+    --color-p-750: #004619;
+    --color-p-800: #003913;
+    --color-p-900: #002108;
+}
