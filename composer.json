@@ -1,4 +1,18 @@
 {
+  "name": "ackstudio/craft",
+  "description": "CraftCMS boilerplate",
+  "keywords": [
+    "craft",
+    "boilerplate"
+  ],
+  "homepage": "https://github.com/ackstudio/craft",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "ACK STUDIO",
+      "homepage": "https://ackstudio.com"
+    }
+  ],
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
