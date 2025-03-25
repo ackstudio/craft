@@ -15,9 +15,9 @@ webimage_extra_packages: [ gconf-service, libasound2, libatk1.0-0, libcairo2, li
 corepack_enable: false
 web_extra_exposed_ports:
     - name: craft-vite
-      container_port: 3000
-      http_port: 3001
-      https_port: 3000
+      container_port: 5173
+      http_port: 5172
+      https_port: 5173
 nodejs_version: "22"
 
 # Key features of DDEV's config.yaml:

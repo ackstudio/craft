@@ -1,0 +1,7 @@
+@import "tailwindcss" source(none);
+
+@source "../../templates";
+
+@theme {
+    --color-p-500: #000;
+}
