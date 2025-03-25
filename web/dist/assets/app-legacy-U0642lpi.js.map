@@ -1,0 +1,1 @@
+{"version":3,"file":"app-legacy-U0642lpi.js","sources":["../../../src/js/app.ts"],"sourcesContent":["import '../css/app.css'\n\n// Accept HMR as per: https://vitejs.dev/guide/api-hmr.html\nif (import.meta.hot) {\n    import.meta.hot.accept(() => {\n        console.log(\"HMR\")\n    });\n}\n\nconsole.log('hello');"],"names":["console","log"],"mappings":"u1fASAA,QAAQC,IAAI"}

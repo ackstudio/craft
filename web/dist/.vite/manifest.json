@@ -1,17 +1,17 @@
 {
-  "src/index-legacy.ts": {
-    "file": "assets/main-legacy-5miPce08.js",
-    "name": "main",
-    "src": "src/index-legacy.ts",
+  "src/js/app-legacy.ts": {
+    "file": "assets/app-legacy-U0642lpi.js",
+    "name": "app",
+    "src": "src/js/app-legacy.ts",
     "isEntry": true
   },
-  "src/index.ts": {
-    "file": "assets/main-Ck5EiAT6.js",
-    "name": "main",
-    "src": "src/index.ts",
+  "src/js/app.ts": {
+    "file": "assets/app-AbiBZUUp.js",
+    "name": "app",
+    "src": "src/js/app.ts",
     "isEntry": true,
     "css": [
-      "assets/main-BKoQgyM0.css"
+      "assets/app-BKoQgyM0.css"
     ]
   },
   "vite/legacy-polyfills-legacy": {
