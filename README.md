@@ -35,29 +35,29 @@ Welcome to the Craft CMS 5 Boilerplate by [ACK STUDIO](https://ackstudio.com). T
 
 ## Installation
 
-1. **Clone or Fork the Repository**
-
-Use Composer to create a new project:
+1. Create a project directory and move into it:
 
 ```bash
-composer create-project ackstudio/craft-cms
+mkdir my-craft-project
+cd my-craft-project/
 ```
 
-2.	Start DDEV, Install Craft CMS, and Dependencies
+2.	Create DDEV configuration files:
 
-Firstly, edit .ddev/config.yaml and change the name field to your project name.
-Then run the following commands to start DDEV and install dependencies:
+```bash
+ddev config --project-type=craftcms --docroot=web
+```
 
-``` ddev start ```
-``` ddev composer install ```
-``` ddev craft setup ```
+3. Start DDEV:
 
-3.	Start Vite for Front-end Development
+Firstly, edit .ddev/config.yaml and change the name to your project name.
 
-Install Node.js dependencies and start Vite for development:
-
-``` npm install ```
-``` npm run dev ```
+```bash
+ddev start
+ddev exec npm install
+ddev composer install
+ddev exec php craft install
+```
 
 ## Authors
 - [ACK STUDIO](https://ackstudio.com)
